@@ -20,10 +20,12 @@ LN| (!) (\) (/)
 /* 3.) Using your analysis from above, in pseudocode describe the algorithm for how to draw 
  * the figure.
  
- for (int slash = 1; slash <= (2 * line - 2); slash++) {
+ // loop for slashes..
+  * for (int slash = 1; slash <= (2 * line - 2); slash++) {
 				System.out.println("/");
 --------------------------------------------------------------------------------------				
-for (int ex = 1; ex <= (-4 * line + 26); ex++)
+// loop for exclamation points..
+ * for (int ex = 1; ex <= (-4 * line + 26); ex++)
 				System.out.print("!");				
 --------------------------------------------------------------------------------------
 
@@ -32,11 +34,11 @@ for (int ex = 1; ex <= (-4 * line + 26); ex++)
 public class P2_SlashesAndBangs {
 
 	public static void main(String[] args) {
-		int height=6;
-		SlashFigure obj= new SlashFigure();
-		obj.drawSlashFigure();
-	}
-	public void drawSlashFigure() {
+		int height = 6;
+		P2_SlashesAndBangs obj = new P2_SlashesAndBangs();
+		P2_SlashesAndBangs.drawP2_SlashesAndBangs();
+	
+
 		for (int row = 0; row < height; row ++) {
 			for (int i = 1; i <= row; i ++) {
 				System.out.print("\\\\");
@@ -49,5 +51,11 @@ public class P2_SlashesAndBangs {
 			}
 			System.out.println();
 		}
+	}
+
+
+	private static void drawP2_SlashesAndBangs() {
+		// TODO Auto-generated method stub
+
 	}
 }
