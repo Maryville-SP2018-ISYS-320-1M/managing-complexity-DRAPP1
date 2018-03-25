@@ -21,13 +21,15 @@ LN| (!) (\) (/)
  * the figure.
  
  // loop for slashes..
-  * for (int slash = 1; slash <= (2 * line - 2); slash++) {
-				System.out.println("/");
+  * for (2 * line - 2); slash++ 
+		System.out.println("//");
 --------------------------------------------------------------------------------------				
 // loop for exclamation points..
- * for (int ex = 1; ex <= (-4 * line + 26); ex++)
-				System.out.print("!");				
+ * for (-4 * line + 26); exclamation++
+		System.out.print("!");				
 --------------------------------------------------------------------------------------
+Also I think the canvas assignment had the slashes on the right side mixed up. I went with the way
+the book had it assigned. I could not decide whether to follow canvas or the book?
 
  */
 
