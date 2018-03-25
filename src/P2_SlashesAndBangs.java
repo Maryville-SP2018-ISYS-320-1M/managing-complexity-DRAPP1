@@ -29,7 +29,7 @@ LN| (!) (\) (/)
 		System.out.print("!");				
 --------------------------------------------------------------------------------------
 Also I think the canvas assignment had the slashes on the right side mixed up. I went with the way
-the book had it assigned. I could not decide whether to follow canvas or the book?
+the canvas had it assigned. I could not decide whether to follow canvas or the book?
 
  */
 
