@@ -37,7 +37,6 @@ public class P2_SlashesAndBangs {
 
 	public static void main(String[] args) {
 		int height = 6;
-		P2_SlashesAndBangs obj = new P2_SlashesAndBangs();
 		P2_SlashesAndBangs.drawP2_SlashesAndBangs();
 	
 
